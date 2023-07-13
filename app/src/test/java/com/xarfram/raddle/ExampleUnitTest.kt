@@ -1,4 +1,4 @@
-package com.xarfram.raddleapp
+package com.xarfram.raddle
 
 import org.junit.Test
 

@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -10,13 +10,14 @@
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/raddle_icon"
         android:label="@string/app_name"
+        android:roundIcon="@mipmap/raddle_icon"
         android:supportsRtl="true"
-        android:theme="@style/Theme.RaddleApp"
+        android:theme="@style/Theme.Raddle"
         tools:targetApi="31">
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:theme="@style/Theme.RaddleApp">
+            android:theme="@style/Theme.Raddle">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
